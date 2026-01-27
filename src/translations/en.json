@@ -570,6 +570,7 @@
   "ImportDataApiPage.pulledQuestionnaires.title": "Import History",
   "ImportDataApiPage.table.paaName": "District / PAA",
   "ImportDataApiPage.table.numberOfHouseholds": "Households",
+  "ImportDataApiPage.table.numberOfMembers": "Members",
   "ImportDataApiPage.table.datePulled": "Import Date",
   "ImportDataApiPage.loadingHistory": "Loading history...",
   "ImportDataApiPage.errorLoadingHistory": "Error loading history",
