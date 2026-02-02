@@ -579,5 +579,16 @@
   "ImportDataApiPage.status.running": "In Progress",
   "ImportDataApiPage.status.completed": "Completed",
   "ImportDataApiPage.status.failed": "Failed",
-  "ImportDataApiPage.status.cancelled": "Cancelled"
+  "ImportDataApiPage.status.cancelled": "Cancelled",
+  "_comment_Non COnsent_Page": "=== Non Consent ===",
+  "individual.menu.nonConsentedHouseholds": "Non-Consented",
+  "individual.nonConsentedHouseholds.pageTitle": "Non-Consented Households",
+  "individual.nonConsentedHouseholds.searcherTitle": "Non-Consented Households ({count})",
+  "individual.tf4No": "TF4 Number",
+  "individual.headName": "Head Name",
+  "individual.location": "Location",
+  "individual.interviewKey": "Interview Key",
+  "individual.interviewDate": "Interview Date",
+  "individual.district": "District",
+  "individual.village": "Village"
 }
