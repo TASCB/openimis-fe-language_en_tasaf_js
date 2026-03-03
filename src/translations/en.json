@@ -226,8 +226,8 @@
     "cancel": "Cancel"
   },
   "menu": {
-    "individuals": "Members",
-    "groups": "Households",
+    "individuals": "Targeted Members",
+    "groups": "Targeted Households",
     "api": "Import Data"
   },
   "individual": {
@@ -581,7 +581,7 @@
   "ImportDataApiPage.status.failed": "Failed",
   "ImportDataApiPage.status.cancelled": "Cancelled",
   "_comment_Non COnsent_Page": "=== Non Consent ===",
-  "individual.menu.nonConsentedHouseholds": "Non-Consented",
+  "individual.menu.nonConsentedHouseholds": "Uninterviewed",
   "individual.nonConsentedHouseholds.pageTitle": "Non-Consented Households",
   "individual.nonConsentedHouseholds.searcherTitle": "Non-Consented Households ({count})",
   "individual.tf4No": "TF4 Number",
@@ -590,5 +590,67 @@
   "individual.interviewKey": "Interview Key",
   "individual.interviewDate": "Interview Date",
   "individual.district": "District",
-  "individual.village": "Village"
+  "individual.village": "Village",
+  "_comment_PMT": "=== PMT (Proxy Means Test) ===",
+  "pmt.menu": "PMT Configuration",
+  "pmt.page.title": "Proxy Means Test (PMT)",
+  "pmt.message.permissionDenied": "You do not have permission to access this page.",
+  "pmt.message.loading": "Loading...",
+  "pmt.message.error": "An error occurred while loading data.",
+  "pmt.message.noResults": "No results found.",
+  "pmt.message.invalidParams": "Invalid parameters. Please provide the required district code.",
+  "pmt.configuration": {
+    "title": "PMT Configuration",
+    "cutoff": "PMT Cutoff Score",
+    "cutoffHint": "Threshold score to classify households (e.g., 11.01)",
+    "region": "Region",
+    "district": "District",
+    "info": "Configure the PMT cutoff score and select a district to run the assessment.",
+    "button": "Apply Configuration"
+  },
+  "pmt.auditSummary": {
+    "title": "PMT Audit Summary",
+    "paaName": "District",
+    "cutoff": "PMT Cutoff",
+    "poor": "Poor Count",
+    "nonPoor": "Non-Poor Count",
+    "action": "Action"
+  },
+  "pmt.enrollment": {
+    "page.title": "Enrollment List",
+    "title": "Enrollment List",
+    "results": "Enrollment Results",
+    "searcherResultsTitle": "{pmtEnrollmentTotalCount} Households Found"
+  },
+  "pmt.household": {
+    "groupCode": "Household Code",
+    "headName": "Head Name",
+    "pmtScore": "PMT Score",
+    "status": "Status",
+    "numberOfMembers": "Members",
+    "location": "Village",
+    "search": "Search",
+    "searchPlaceholder": "Search by code or name",
+    "searchCode": "Search by Code",
+    "searchHeadName": "Search by Head Name",
+    "pmtStatus": "PMT Status"
+  },
+  "pmt.status": {
+    "poor": "Poor",
+    "nonPoor": "Non-Poor"
+  },
+  "pmt.filter": {
+    "all": "All",
+    "expand": "Show Filters",
+    "collapse": "Hide Filters"
+  },
+  "pmt.button": {
+    "view": "View",
+    "reset": "Reset",
+    "downloadPdf": "Download PDF"
+  },
+  "pmt.results": {
+    "title": "Household Results",
+    "empty": "Apply configuration above to view results."
+  }
 }
