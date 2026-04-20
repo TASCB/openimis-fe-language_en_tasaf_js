@@ -718,5 +718,16 @@
 "eligibleHouseholds.pageTitle": "Eligible Households",
 "eligibleHouseholds.searcherTitle": "{count} Eligible Households Found",
 "group.pmtScoreHousehold": "PMT Score",
-"group.pmtClassHousehold": "PMT Class"
+"group.pmtClassHousehold": "PMT Class",
+"_comment_location": "=== Location ===",
+"location.locationType.2": "Ward",
+"location.locationType.1.children": "Wards and Villages",
+"location.locationType.1.directChildren": "Wards",
+"location.locations.searcher.title.2": "Wards",
+"location.RegionPicker.label": "Region",
+"location.DistrictPicker.label": "District",
+"location.Location2Picker.label": "Ward",
+"location.Location3Picker.label": "Village",
+"_comment_nonconsented": "=== nonconsented ===",
+"nonConsentedHouseholds.searcherTitle":"Uniinterviewed"
 }
