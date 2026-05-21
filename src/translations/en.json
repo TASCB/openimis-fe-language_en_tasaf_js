@@ -631,8 +631,8 @@
     "title": "PMT Audit Summary",
     "paaName": "District",
     "cutoff": "PMT Cutoff",
-    "poor": "Poor Count",
-    "nonPoor": "Non-Poor Count",
+    "poor": "Eligible Count",
+    "nonPoor": "Non-Eligible Count",
     "action": "Action"
   },
   "pmt.enrollment": {
@@ -655,8 +655,8 @@
     "pmtStatus": "PMT Status"
   },
   "pmt.status": {
-    "poor": "Poor",
-    "nonPoor": "Non-Poor"
+    "poor": "Eligible",
+    "nonPoor": "Non-Eligible"
   },
   "pmt.filter": {
     "all": "All",
