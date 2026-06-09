@@ -1,4 +1,5 @@
 {
+  "home.HomePageContainer.welcomeMessage": "Karibu {otherNames} {lastName}!",
   "core.advancedFilters": "Advanced Filters",
   "core.advancedFilters.field": "Field",
   "core.advancedFilters.filter": "Filter",
@@ -754,3 +755,6 @@
 "_comment_nonconsented": "=== nonconsented ===",
 "nonConsentedHouseholds.searcherTitle": "{count} Uninterviewed Households Found"
 }
+
+
+
