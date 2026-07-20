@@ -554,7 +554,8 @@
     "dryRun": "Dry Run (Preview Only)",
     "error": "Error",
     "pulledQuestionnaires": {
-      "title": "Pulled Questionnaires History"
+      "title": "Pulled Questionnaires History",
+      "searcherResultsTitle": "{count} Pulled Questionnaires"
     },
     "loadingHistory": "Loading pulled questionnaires history...",
     "errorLoadingHistory": "Error loading history",
