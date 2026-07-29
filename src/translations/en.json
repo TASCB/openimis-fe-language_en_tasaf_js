@@ -751,8 +751,16 @@
 "location.locations.searcher.title.2": "Wards",
 "location.RegionPicker.label": "Region",
 "location.DistrictPicker.label": "District",
+"location.Location0Picker.label": "Region",
+"location.Location1Picker.label": "District",
 "location.Location2Picker.label": "Ward",
 "location.Location3Picker.label": "Village",
+"location.Location0Picker.null": "Any",
+"location.Location1Picker.null": "Any",
+"location.Location0Picker.placehoder": "Search a region",
+"location.Location1Picker.placehoder": "Search a district",
+"location.Location2Picker.placehoder": "Search a ward",
+"location.Location3Picker.placehoder": "Search a village",
 "_comment_nonconsented": "=== nonconsented ===",
 "nonConsentedHouseholds.searcherTitle": "{count} Uninterviewed Households Found"
 }
