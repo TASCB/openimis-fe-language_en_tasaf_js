@@ -350,7 +350,23 @@
     "gql_group_search_perms": "Individual | Group Search",
     "gql_group_create_perms": "Individual | Group Create",
     "gql_group_update_perms": "Individual | Group Update",
-    "gql_group_delete_perms": "Individual | Group Delete"
+    "gql_group_delete_perms": "Individual | Group Delete",
+    "gender": "Gender",
+    "phoneNumber": "Phone Number",
+    "nin": "NIN",
+    "isHead": "Is Head",
+    "isHhrep": "Is HHREP",
+    "premNumber": "PREM Number",
+    "status": "Status",
+    "yes": "Yes",
+    "no": "No",
+    "memberStatus": {
+      "ACTIVE": "Enrolled (active)",
+      "POTENTIAL": "Potential",
+      "SUSPENDED": "Suspended",
+      "GRADUATED": "Graduated",
+      "NOT_ENROLLED": "Not enrolled"
+    }
   },
   "individualHistory": {
     "pageTitle": "Individual {firstName} {lastName}",
@@ -407,7 +423,11 @@
         "title": "Group Create Tasks"
       }
     },
-    "members": "Members"
+    "members": "Members",
+    "hhrep": "HHREP",
+    "interviewKey": "Interview Key",
+    "locationName": "Location Name",
+    "headPhone": "Head Phone"
   },
   "groupHistory": {
     "pageTitle": "Households {id}",
@@ -660,9 +680,9 @@
     "action": "Action"
   },
   "pmt.enrollment": {
-    "page.title": "Enrollment List",
-    "title": "Enrollment List",
-    "results": "Enrollment Results",
+    "page.title": "PMT Household List",
+    "title": "PMT Household List",
+    "results": "PMT Results",
     "searcherResultsTitle": "{pmtEnrollmentTotalCount} Households Found"
   },
   "pmt.household": {
