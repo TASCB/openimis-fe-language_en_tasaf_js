@@ -655,7 +655,7 @@
   "individual.district": "District",
   "individual.village": "Village",
   "_comment_PMT": "=== PMT (Proxy Means Test) ===",
-  "pmt.menu": "PMT Rerun",
+  "pmt.menu": "PMT Config",
   "pmt.page.title": "Proxy Means Test (PMT)",
   "pmt.message.permissionDenied": "You do not have permission to access this page.",
   "pmt.message.loading": "Loading...",
@@ -672,8 +672,9 @@
     "button": "Apply Configuration"
   },
   "pmt.auditSummary": {
-    "title": "PMT Audit Summary",
-    "paaName": "District",
+    "title": "PMT Results by PAA",
+    "tab": "PMT Results by PAA",
+    "paaName": "PAA",
     "cutoff": "PMT Cutoff",
     "poor": "Eligible Count",
     "nonPoor": "Non-Eligible Count",
