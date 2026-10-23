@@ -805,8 +805,13 @@
 "location.Location2Picker.placehoder": "Search a ward",
 "location.Location3Picker.placehoder": "Search a village",
 "_comment_nonconsented": "=== nonconsented ===",
-"nonConsentedHouseholds.searcherTitle": "{count} Uninterviewed Households Found"
+"nonConsentedHouseholds.searcherTitle": "{count} Uninterviewed Households Found",
+  "grievanceSocialProtection. Ticket.DescriptionOfEvents": "DETAILS OF THE GRIEVANCE",
+  "grievanceSocialProtection.Ticket.DescriptionOfEvents": "DETAILS OF THE GRIEVANCE",
+  "grievanceSocialProtection. Ticket.Resolution": "RESOLUTION",
+  "grievanceSocialProtection.ticket.ticketDescription": "What happened",
+  "grievanceSocialProtection.ticket.description.helperText": "Cannot be changed after submission.",
+  "ticket.ticketDescription": "What happened",
+  " Ticket.DescriptionOfEvents": "DETAILS OF THE GRIEVANCE",
+  " Ticket.Resolution": "RESOLUTION"
 }
-
-
-
