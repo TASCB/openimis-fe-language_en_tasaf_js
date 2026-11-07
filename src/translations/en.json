@@ -232,16 +232,16 @@
     "api": "Import Data"
   },
   "individual": {
-    "pageTitle": "Individual {firstName} {lastName}",
+    "pageTitle": "Member {firstName} {lastName}",
     "headPanelTitle": "General Information",
     "firstName": "First Name",
     "lastName": "Last Name",
     "dob": "Day of birth",
     "location": "Location",
-    "locationEditDisabledTitle": "Individual belongs to a group; Please edit location on their group",
+    "locationEditDisabledTitle": "Member belongs to a household; edit the location on the household",
     "isDeleted": "Show Deleted",
     "hasNoLocation": "Missing Location",
-    "addButtonTooltip": "Add Individual to Group",
+    "addButtonTooltip": "Add member to household",
     "additonalFields": {
       "label": "Additional Fields",
       "showAdditionalFields": "Show Additional Fields",
@@ -256,22 +256,22 @@
         "title": "Delete {firstName} {lastName}?",
         "message": "Deleting data does not mean erasing it from OpenIMIS database. The data will only be deactivated from the viewed list."
       },
-      "mutationLabel": "Delete Individual {id}"
+      "mutationLabel": "Delete member {id}"
     },
     "undo": {
       "confirm": {
         "title": "Undo delete {firstName} {lastName}?",
-        "message": "Undoing deletion of individual."
+        "message": "Undoing deletion of member."
       },
-      "mutationLabel": "Undo delete Individual {id}"
+      "mutationLabel": "Undo delete member {id}"
     },
     "update": {
-      "label": "Update Individual",
-      "mutationLabel": "Update Individual {id}"
+      "label": "Update member",
+      "mutationLabel": "Update member {id}"
     },
     "upload": {
       "buttonLabel": "UPLOAD",
-      "label": "Upload Individuals",
+      "label": "Upload members",
       "alert.sameFileName": "Filename exists for given Benefit Plan. Please change the filename.",
       "alert.header": "Error during file upload.",
       "alert.header.invalid_format": "Invalid file format!",
@@ -331,7 +331,7 @@
       "label": "MEMBERS"
     },
     "tasks": {
-      "title": "Individual Tasks"
+      "title": "Member tasks"
     },
     "any": "ANY",
     "ok": "ok",
@@ -339,7 +339,7 @@
     "individualTasks.label": "Tasks",
     "groupChange": {
       "confirm": {
-        "message": "Individual {individualId} moved to Group {groupId}"
+        "message": "Member {individualId} moved to household {groupId}"
       }
     },
     "gql_individual_search_perms": "Individual | Individual Search",
@@ -369,7 +369,7 @@
     }
   },
   "individualHistory": {
-    "pageTitle": "Individual {firstName} {lastName}",
+    "pageTitle": "Member {firstName} {lastName}",
     "headPanelTitle": "General Information",
     "dateUpdated": "Date Updated",
     "version": "Version",
@@ -400,7 +400,7 @@
     "head": "Head",
     "code": "HHID",
     "create": {
-      "mutationLabel": "Created Group {id}"
+      "mutationLabel": "Created household {id}"
     },
     "noHeadSpecified": "head not specified",
     "individual.firstName": " First Name",
@@ -413,14 +413,14 @@
         "title": "Delete {id}?",
         "message": "Deleting data does not mean erasing it from OpenIMIS database. The data will only be deactivated from the viewed list."
       },
-      "mutationLabel": "Delete Group {id}"
+      "mutationLabel": "Delete household {id}"
     },
     "createGroupAndMoveIndividual": {
-      "mutationLabel": "Create group and move individual."
+      "mutationLabel": "Create household and move member"
     },
     "tasks": {
       "create": {
-        "title": "Group Create Tasks"
+        "title": "Household create tasks"
       }
     },
     "members": "Members",
@@ -448,7 +448,7 @@
     "dateUpdated_Lte": "Date updated before"
   },
   "groupHistoryList": {
-    "pageTitle": "Groups History",
+    "pageTitle": "Households history",
     "searcherResultsTitle": "{groupHistoryTotalCount} Historical Records Found"
   },
   "export": {
@@ -468,16 +468,16 @@
     "individual": {
       "role": "Role",
       "recipientType": "Household Rep",
-      "groupId": "Group ID",
-      "individualId": "Individual ID"
+      "groupId": "HHID",
+      "individualId": "Member ID"
     },
     "update": {
-      "label": "Update Individual",
-      "mutationLabel": "Update Individual {id}"
+      "label": "Update member",
+      "mutationLabel": "Update member {id}"
     },
     "tasks": {
       "update": {
-        "title": "Group Update Tasks"
+        "title": "Household update tasks"
       }
     },
     "groupIndividualRolePicker.HEAD": "HEAD",
@@ -519,10 +519,10 @@
   "groupIndividualHistory": {
     "individual": {
       "role": "Role",
-      "groupId": "Group ID",
-      "individualId": "Individual ID"
+      "groupId": "HHID",
+      "individualId": "Member ID"
     },
-    "label": "Group History",
+    "label": "Household history",
     "groupIndividualRolePicker.HEAD": "HEAD",
     "groupIndividualRolePicker.NOT_RELATED": "NOT RELATED",
     "groupIndividualRolePicker.OTHER_RELATIVE": "OTHER RELATIVE",
@@ -554,20 +554,20 @@
   "groupChangelog.label": "Change Log",
   "groupTasks.label": "Tasks",
   "groupPicker": {
-    "label": "Select a group."
+    "label": "Select a household"
   },
   "groupChangeDialog": {
-    "confirmTitle": "Move {firstName} {lastName} to a different group."
+    "confirmTitle": "Move {firstName} {lastName} to a different household"
   },
-  "addToNewGroup": "Add individual to this group",
+  "addToNewGroup": "Add member to this household",
   "confirm": "Confirm",
   "cancel": "Cancel",
-  "changeGroupButtonTooltip": "Move to another group.",
-  "moveToNewGroup": "New Group",
-  "createGroupFromColumns": "Create groups from column:",
+  "changeGroupButtonTooltip": "Move to another household",
+  "moveToNewGroup": "New household",
+  "createGroupFromColumns": "Create households from column:",
   "groupAggregationInfo": "To specify recipients include header 'recipient_info' with possible values: '1' - head, '0' or empty - recipient.",
-  "validation_import_group_valid_items.tasks.title": "Import Group Valid Items",
-  "groupTaskConfirmation.title": "Group Upload Confirmation",
+  "validation_import_group_valid_items.tasks.title": "Import valid household items",
+  "groupTaskConfirmation.title": "Household upload confirmation",
   "dialogActions.continue": "Continue",
   "dialogActions.goBack": "Cancel",
   "ImportPageAPI": {
@@ -813,5 +813,44 @@
   "grievanceSocialProtection.ticket.description.helperText": "Cannot be changed after submission.",
   "ticket.ticketDescription": "What happened",
   " Ticket.DescriptionOfEvents": "DETAILS OF THE GRIEVANCE",
-  " Ticket.Resolution": "RESOLUTION"
+  " Ticket.Resolution": "RESOLUTION",
+  "_comment_member_household": "=== Member = individual, Household = group ===",
+  "BeneficiaryPicker": "Member",
+  "BeneficiaryPicker.placeholder": "Search member by surname",
+  "BeneficiaryPicker.aboveLimit": "Showing the first {limit} members; type a surname to narrow",
+  "pmt.filter.searchPlaceholder": "Search by HHID or head name",
+  "pmt.progress.individuals": "Members processed",
+  "pmt.adjustment.confirm.message": "This will reclassify households and members in {districtName} using the stored PMT score and cutoff {cutoff}, and auto-enrol the POOR households in PCT. Continue?",
+  "pmt.adjustment.confirm.messageAll": "This will reclassify every household and member in the database using the stored PMT score and cutoff {cutoff}, and auto-enrol the POOR households in PCT. Continue?",
+  "individual.deduplication.button": "Find duplicate members",
+  "individual.deduplication.title": "Member deduplication",
+  "individual.deduplication.description": "Select fields to identify and merge duplicate member records. The system will find all members with matching values in the selected fields.",
+  "individual.deduplication.noResults": "No duplicate members found with the selected criteria.",
+  "individual.deduplication.results": "Duplicate sets found",
+  "individual.deduplication.groups": "sets",
+  "individual.deduplication.truncated": "Showing the largest {shown} of {total} duplicate sets; only these become review tasks. Match on more fields to narrow it.",
+  "individual.deduplication.mergeInfo": "The primary member will be kept, and all relationships (households, beneficiaries) will be transferred to it. Secondary members will be soft-deleted but preserved in the audit trail.",
+  "deduplication.deduplicationSummaryTable.group": "Duplicate set",
+  "socialProtection.beneficiary.benefitPlanTypePicker.INDIVIDUAL": "Member",
+  "socialProtection.beneficiary.benefitPlanTypePicker.GROUP": "Household",
+  "socialProtection.beneficiaries.members.searcherResultsTitle": "{individualsTotalCount} Members found",
+  "socialProtection.groupBeneficiaries.searcherResultsTitle": "{groupBeneficiariesTotalCount} Household beneficiaries",
+  "socialProtection.groupBeneficiary.update.mutationLabel": "Update household beneficiary {id}",
+  "socialProtection.benefitPackage.GroupPanel.title": "Household",
+  "socialProtection.benefitPackage.GroupDetailPanel.title": "Household details",
+  "socialProtection.benefitPackage.GroupDetailPanel.tooltip": "Show household",
+  "socialProtection.benefitPackage.IndividualDetailPanel.title": "Member details",
+  "socialProtection.benefitPackage.IndividualDetailPanel.tooltip": "Show member",
+  "socialProtection.benefitPackage.members.tooltip.viewDetails": "View member details",
+  "socialProtection.beneficiary.task.individual.id": "Member",
+  "payroll.benefitConsumption.individual": "Member",
+  "tasksManagement.task.source.IndividualService": "Member change",
+  "tasksManagement.task.source.GroupIndividualService": "Household member change",
+  "tasksManagement.task.source.CreateGroupAndMoveIndividualService": "New household and move member",
+  "grievantType.individual": "Other person",
+  "legacy_individual.menu.individuals": "PSSN II Members",
+  "legacy_individual.page.individuals.title": "PSSN II Members",
+  "legacy_individual.pages.individuals.helmet": "PSSN II Members (PSSN Archive)",
+  "legacy_individual.individualSearcher.tableTitle": "PSSN II members ({count})",
+  "legacy_individual.individualPage.helmet": "PSSN II Member — {name}"
 }
