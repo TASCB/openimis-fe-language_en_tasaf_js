@@ -707,7 +707,7 @@
   "pmt.button": {
     "view": "View",
     "reset": "Reset",
-    "downloadPdf": "Download PDF"
+    "downloadPdf": "Download"
   },
   "pmt.results": {
     "title": "Household Results",
