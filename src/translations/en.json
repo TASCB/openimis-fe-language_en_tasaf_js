@@ -672,12 +672,8 @@
     "button": "Apply Configuration"
   },
   "pmt.auditSummary": {
-    "title": "PMT Results by PAA",
-    "tab": "PMT Results by PAA",
+    "title": "PMT Adjustment Result",
     "paaName": "PAA",
-    "cutoff": "PMT Cutoff",
-    "poor": "Eligible Count",
-    "nonPoor": "Non-Eligible Count",
     "action": "Action"
   },
   "pmt.enrollment": {
