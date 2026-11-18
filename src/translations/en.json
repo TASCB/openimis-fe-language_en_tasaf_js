@@ -843,15 +843,5 @@
   "tasksManagement.task.source.IndividualService": "Member change",
   "tasksManagement.task.source.GroupIndividualService": "Household member change",
   "tasksManagement.task.source.CreateGroupAndMoveIndividualService": "New household and move member",
-  "grievantType.individual": "Other person",
-  "legacy_individual.menu.individuals": "Legacy Members",
-  "legacy_individual.menu.groups": "Legacy Households",
-  "legacy_individual.menu.imports": "Import",
-  "legacy_individual.page.individuals.title": "PSSN I & II Members",
-  "legacy_individual.pages.individuals.helmet": "PSSN I & II Members (PSSN Archive)",
-  "legacy_individual.individualSearcher.tableTitle": "PSSN I & II members ({count})",
-  "legacy_individual.individualPage.helmet": "PSSN I & II Member — {name}",
-  "legacy_individual.groupSearcher.tableTitle": "PSSN I & II households ({count})",
-  "legacy_individual.pages.groups.helmet": "PSSN I & II Households (PSSN Archive)",
-  "legacy_individual.groupPage.helmet": "PSSN I & II Household — {code}"
+  "grievantType.individual": "Other person"
 }
